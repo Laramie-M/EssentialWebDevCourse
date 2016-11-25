@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html{
+	height:100%;
+}
+body{
+	background: linear-gradient(to top right, gold, blue);
+}
+h1{
+	font-size: 50px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 4px 4px 5px gold;
+
+
+}
+h2{	text-decoration: underline;}
+li{
+	list-style-type: none;
+	float: left;
+	margin-right: 15px;
+	text-decoration: underline;
+}
+div{
+	padding: 5px;
+	margin: 20px;
+}
+.redFont{
+	color:red;
+}
+.underline{
+	/*extra class */
+	text-decoration: underline;
+}
+#header{
+	/* ID's should only be used once */
+	border: 1px solid black;
+	border-radius: 20px 20px 50px 50px;
+	box-shadow: 4px 4px 5px gold;
+}
